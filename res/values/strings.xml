@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Find Your Flight</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msg">Find Your Flight</string>
+    <string name="depart">Depart :</string>
+    <string name="Ex1">Ex:Alger</string>
+    <string name="DD">Date de Depart :</string>
+    <string name="Ex2">Ex:Madrid</string>
+    <string name="arrive">Arrivée :</string>
+    
+    <string name="compagne">Compagne Aerienne :</string>
+    <string name="date2">04/05/2013</string>
+     <string name="date1">04/05/2013</string>
+    <string name="type">Aigle Azur</string>
+    <string name="classe">classe :</string>
+    <string name="type1">Economique</string>
+    <string name="genre">Aller simple</string>
+    <string name="genre2">Aller retour</string>
+    <string name="escale">Escale</string>
+    <string name="Button">Rechercher</string>
+    <string name="prix">Prix</string>
+    <string name="DA">Date de Retour :</string>
+     <string name="pick_date">Date</string>
+      <string name="vol">Votre Vol</string>
+    <string name="num">Numero de Vol</string>
+    <string name="Place">Nombre de place</string>
+    
+    <string name="maj">MAJ</string>
+    <string name="annuler">Annuler</string>
+   
+    <string name="num1">12345</string>
+    <string name="Place1">12</string>
+    
+    <string name="date">Date</string>
+
+</resources>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:background="@drawable/f" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+resultat/villed"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:text="VDepart"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.65"
+            android:src="@drawable/fleche" />
+
+        <TextView
+            android:id="@+resultat/villea"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="VArriveé"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <TabHost 
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="58dp" >
+</TabWidget>  
+   <FrameLayout 
+    android:id="@android:id/tabcontent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+        android:id="@+id/aetr"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Numero de Vol :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="70sp"
+                android:id="@+resultat/numvol"
+                android:layout_height="fill_parent"
+                android:text="NO"
+                
+                android:textColor="#0000ff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                
+                android:text="Le prix :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+resultat/prix"
+                android:text="00000£"
+                android:textColor="#00ffff"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Place disponible :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+resultat/nbplace"
+                android:text="Nombre"
+                android:textColor="#0000ff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+resultat/escale"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="right"
+                android:text="N:Escale"
+                android:textColor="#ff0000"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Date :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                android:id="@+resultat/date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Heure de Depart :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="oohoo"
+                android:id="@+resultat/hd"
+                android:textColor="#0000ff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text=" Heure d&apos;Ariveé:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="oohoo"
+               
+               android:textColor="#0000ff"
+                android:textStyle="bold"
+                android:id="@+resultat/ha" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="classe:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="classe"
+                android:id="@+resultat/classe"
+             android:textColor="#0000ff"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="durée"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="oo heure et oo min"
+                android:id="@+resultat/dure"
+                android:textColor="#222222"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Company airienne :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+resultat/company"
+                android:text="nom"
+                android:textColor="#0000ff" />
+        </LinearLayout>
+        
+       
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+"
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&lt;&lt;"
+                android:id="@+resultat/rev" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">>" 
+                android:id="@+resultat/avan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fermer" 
+                android:id="@+resultat/fermer"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reserver" 
+                android:id="@+resultat/reserver"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+   </FrameLayout>     
+        
+     </LinearLayout>   
+    </TabHost>
+    
+    
+    
+
+</LinearLayout>
