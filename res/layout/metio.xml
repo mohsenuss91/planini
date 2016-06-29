@@ -1,0 +1,321 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp" 
+    android:id="@+id/met"
+    android:orientation="vertical"
+    android:background="@drawable/c">"
+
+   <TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="city:++++++++"
+       android:textStyle="italic"
+       android:textSize="20dp" 
+       android:id="@+id/city"
+       android:gravity="center"/>
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="1 ER Jour"
+       android:textColor="#00ff00"
+       android:gravity="center"/>
+   
+  <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:orientation="horizontal"
+      >
+  <ImageView 
+       android:layout_height="70dp"
+       android:layout_width="80dp"
+       android:id="@+id/im1"
+      />
+  <LinearLayout 
+      android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:orientation="vertical"> 
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Date :"
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="aa/mm/jj"
+       android:textColor="#ff0000"
+       android:id="@+id/vdat1"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Temp Max :"
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="00 c"
+       android:id="@+id/tmax1"
+       android:textColor="#ff0000"/>
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Temp min :"
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="00 c"
+       android:id="@+id/tmin1"
+       android:textColor="#ff0000"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Description : "
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="Description"
+       android:textColor="#ff0000"
+       android:id="@+id/des1"/>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="2 Em Jour"
+       android:textColor="#00ff00"
+       android:gravity="center"/>
+   
+  <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:orientation="horizontal"
+      >
+  <ImageView 
+       android:layout_height="70dp"
+       android:layout_width="80dp"
+       android:id="@+id/im2"
+      />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="date :"
+    android:textStyle="bold" />
+
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:hint="aa/mm/jj"
+       android:textColor="#ff0000"
+       android:id="@+id/vdat2"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="232dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Temp Max :"
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="00 c"
+       android:id="@+id/tmax2"
+       android:textColor="#ff0000"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Temp min :"
+    android:textStyle="bold" />
+
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="00 c"
+       android:id="@+id/tmin2"
+       android:textColor="#ff0000"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Description  : "
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="Description"
+       android:textColor="#ff0000"
+       android:id="@+id/des2"/>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+ 
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="3 Em Jour"
+       android:textColor="#00ff00"
+       android:gravity="center"/>
+   
+  <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:orientation="horizontal"
+      >
+  
+  <ImageView 
+       android:layout_height="70dp"
+       android:layout_width="80dp"
+       android:id="@+id/im3"
+      /> 
+ <LinearLayout 
+      android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:orientation="vertical"> 
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="date :"
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="aa/mm/jj"
+       android:textColor="#ff0000"
+       android:id="@+id/vdat3"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Temp Max :"
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="00 c"
+       android:id="@+id/tmax3"
+       android:textColor="#ff0000"/>
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Temp min :"
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="00 c"
+       android:id="@+id/tmin3"
+       android:textColor="#ff0000"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Description : "
+       android:textStyle="bold"
+       />
+<TextView 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:hint="Description"
+       android:textColor="#ff0000"
+       android:id="@+id/des3"/>
+</LinearLayout>
+</LinearLayout>
+
+  </LinearLayout>
+  
+  
+  <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+      android:orientation="horizontal"
+      >
+      <TextView 
+        android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="La ville :"/>
+      <EditText 
+       android:layout_height="wrap_content"
+       android:layout_width="70dp"
+       android:textSize="15dp"
+       android:id="@+id/editv"/>
+      <Button 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:textSize="15dp"
+       android:text="Charger"
+       android:layout_gravity="right"
+       android:id="@+id/charg"/>
+      <Button
+       android:textSize="15dp"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Retour"
+       android:layout_gravity="right"
+       android:id="@+id/ret"/>
+  </LinearLayout>
+   </LinearLayout>
